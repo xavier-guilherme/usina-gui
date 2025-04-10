@@ -1,0 +1,9 @@
+Tag Name,Address,Data Type,Client Access,Scan Rate,Scaling,Description
+StatusCiclo,"USER(2000, 0, 1)",Boolean,Read/Write,100,None,Status do ciclo de limpeza
+VazaoAgua,"RANDOM(1000, 0.0, 30.0)",Float,Read/Write,100,None,Vazão de água (L/min)
+VazaoSoda,"RANDOM(1000, 0.0, 10.0)",Float,Read/Write,100,None,Vazão de soda cáustica (L/min)
+TempRetorno,"RANDOM(1000, 40.0, 70.0)",Float,Read/Write,100,None,Temperatura de retorno (°C)
+TempEntrada,"RANDOM(1000, 45.0, 75.0)",Float,Read/Write,100,None,Temperatura de entrada (°C)
+ValvulaLavagem,"USER(1000, 0, 1)",Boolean,Read/Write,100,None,Válvula de lavagem
+BombaLigada,"USER(1500, 0, 1)",Boolean,Read/Write,100,None,Status da bomba principal
+AlarmeTempAlta,"USER(3000, 0, 1)",Boolean,Read/Write,100,None,Alarme de temperatura alta

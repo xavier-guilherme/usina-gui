@@ -1,0 +1,23 @@
+Tag Name,Address,Data Type,Scan Rate,Scaling,Description
+Agitador_MV,"RAMP(1000, 0, 1, 1)",Boolean,100,None,Status do agitador
+AlarmeNivelAlto,"RAMP(1000, 0, 1, 1)",Boolean,100,None,Alarme de nível alto
+AlarmeTempAlta,"RAMP(1000, 0, 1, 1)",Boolean,100,None,Alarme de temperatura alta
+Valvula_Entrada_MV,"RAMP(1000, 0, 1, 1)",Boolean,100,None,Estado da válvula de entrada
+Valvula_Saida_MV,"RAMP(1000, 0, 1, 1)",Boolean,100,None,Estado da válvula de saída
+VinhoPronto,"RAMP(1500, 0, 1, 1)",Boolean,100,None,Indica se o vinho está pronto
+Temperatura_PV,"RANDOM(1000, 30.0, 35.0)",Float,100,None,Temperatura da dorna (°C)
+Nivel_Agua,"RANDOM(1000, 0, 100.0)",Float,100,None,Nível de água (%)
+Nivel_Levedura,"RANDOM(1000, 0, 100.0)",Float,100,None,Nível de levedura (%)
+Nivel_Mosto,"RANDOM(1000, 0, 100.0)",Float,100,None,Nível de mosto (%)
+Volume,"RANDOM(1000, 500, 800)",Float,100,None,Volume atual da dorna (litros)
+CO2,"RANDOM(1000, 0, 10.0)",Float,100,None,Liberação de CO2 (kg/h)
+pH_PV,"RANDOM(1000, 3.0, 6.5)",Float,100,None,pH da fermentação
+Pressao_PV,"RANDOM(1000, 1.0, 2.0)",Float,100,None,Pressão interna (bar)
+Etanol,"RANDOM(1000, 5.0, 15.0)",Float,100,None,Concentração de etanol (%)
+Densidade,"RANDOM(1000, 0.9, 1.1)",Float,100,None,Densidade da mistura (g/cm³)
+Brix_PV,"RANDOM(1000, 0, 20.0)",Float,100,None,Concentração de açúcar (°Brix)
+VazaoAgua_PV,"RANDOM(1000, 0, 10000.0)",Float,100,None,Vazão de água (L/min)
+VazaoLevedura_PV,"RANDOM(1000, 0, 5000.0)",Float,100,None,Vazão de levedura (L/min)
+VazaoMosto_PV,"RANDOM(1000, 0, 8000.0)",Float,100,None,Vazão do mosto (L/min)
+TempEntradaMosto_PV,"RANDOM(1000, 25.0, 32.0)",Float,100,None,Temperatura do mosto na entrada
+TempSaidaVinho_PV,"RANDOM(1000, 30.0, 34.0)",Float,100,None,Temperatura do vinho na saída

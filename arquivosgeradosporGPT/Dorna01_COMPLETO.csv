@@ -1,0 +1,26 @@
+TagName,Address,DataType,ScanRate,Scaling,Description
+Agitador_MV,"USER(1000, 0, 1)",Boolean,100,None,Status do agitador
+AlarmeNivelAlto,"USER(1500, 0, 1)",Boolean,100,None,Alarme de nível alto
+AlarmeTempAlta,"USER(1500, 0, 1)",Boolean,100,None,Alarme de temperatura alta
+Misturador_MV,"USER(800, 0, 1)",Boolean,100,None,Misturador de ingredientes
+Status_Fermentacao,"USER(2000, 0, 1)",Boolean,100,None,Status da fermentação
+Valvula_Entrada_MV,"USER(1500, 0, 1)",Boolean,100,None,Estado da válvula de entrada
+Valvula_Excesso_MV,"USER(1800, 0, 1)",Boolean,100,None,Válvula de excesso da dorna
+Valvula_Saida_MV,"USER(1600, 0, 1)",Boolean,100,None,Estado da válvula de saída
+VinhoPronto,"USER(2500, 0, 1)",Boolean,100,None,Indica se o vinho está pronto
+Pressao_PV,"RAMP(1000, 0.8, 2.0, 0.05)",Float,100,None,Pressão interna (bar)
+Temperatura_PV,"RAMP(1000, 30.0, 35.0, 0.1)",Float,100,None,Temperatura atual da dorna (°C)
+Volume_PV,"RAMP(1000, 500.0, 800.0, 2)",Float,100,None,Volume atual da dorna (litros)
+Brix_PV,"RANDOM(1000, 10.0, 18.0)",Float,100,None,Concentração de açúcar (°Brix)
+CO2_PV,"RANDOM(1000, 0.1, 0.9)",Float,100,None,Liberação de CO2 (kg/h)
+Densidade_PV,"RANDOM(1000, 0.95, 1.05)",Float,100,None,Densidade da mistura (g/cm³)
+Etanol_PV,"RANDOM(1000, 5.0, 15.0)",Float,100,None,Concentração de etanol (%)
+Nivel_Agua,"RANDOM(1000, 0.0, 100.0)",Float,100,None,Nível de água adicionado (%)
+Nivel_Levedura,"RANDOM(1000, 0.0, 100.0)",Float,100,None,Nível de levedura (%)
+Nivel_Mosto,"RANDOM(1000, 0.0, 100.0)",Float,100,None,Nível de mosto adicionado (%)
+pH_PV,"RANDOM(1000, 3.0, 6.5)",Float,100,None,pH da fermentação
+TempEntradaMosto_PV,"RANDOM(1000, 25.0, 32.0)",Float,100,None,Temperatura do mosto na entrada
+TempSaidaVinho_PV,"RANDOM(1000, 30.0, 34.0)",Float,100,None,Temperatura do vinho na saída
+VazaoAgua_PV,"RANDOM(1000, 0.0, 10.0)",Float,100,None,Vazão de água (L/min)
+VazaoLevedura_PV,"RANDOM(1000, 0.0, 5.0)",Float,100,None,Vazão de levedura (L/min)
+VazaoMosto_PV,"RANDOM(1000, 0.0, 10.0)",Float,100,None,Vazão do mosto (L/min)

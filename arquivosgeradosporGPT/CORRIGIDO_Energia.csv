@@ -1,0 +1,7 @@
+Tag Name,Address,Data Type,Client Access,Scan Rate,Scaling,Description
+PotenciaAtiva,"RANDOM(1000, 50.0, 200.0)",Float,Read/Write,100,None,Potência ativa (kW)
+Corrente,"RANDOM(1000, 100.0, 400.0)",Float,Read/Write,100,None,Corrente elétrica (A)
+Tensao,"RANDOM(1000, 380.0, 420.0)",Float,Read/Write,100,None,Tensão da rede (V)
+FatorPotencia,"RANDOM(1000, 0.85, 1.0)",Float,Read/Write,100,None,Fator de potência
+Demanda,"RANDOM(1000, 60.0, 250.0)",Float,Read/Write,100,None,Demanda instantânea (kW)
+ConsumoTotal,"RANDOM(1000, 0.0, 99999.0)",Float,Read/Write,100,None,Consumo acumulado (kWh)

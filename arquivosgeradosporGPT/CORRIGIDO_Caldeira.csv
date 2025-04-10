@@ -1,0 +1,6 @@
+Tag Name,Address,Data Type,Client Access,Scan Rate,Scaling,Description
+TemperaturaAgua,"RANDOM(1000, 60.0, 90.0)",Float,Read/Write,100,None,Temperatura da água (°C)
+PressaoVapor,"RANDOM(1000, 4.0, 7.0)",Float,Read/Write,100,None,Pressão do vapor gerado (bar)
+NivelAgua,"RANDOM(1000, 20.0, 80.0)",Float,Read/Write,100,None,Nível do tanque da caldeira (%)
+QueimadorLigado,"USER(2000, 0, 1)",Boolean,Read/Write,100,None,Status do queimador
+AlarmePressao,"USER(2500, 0, 1)",Boolean,Read/Write,100,None,Alarme de sobrepressão

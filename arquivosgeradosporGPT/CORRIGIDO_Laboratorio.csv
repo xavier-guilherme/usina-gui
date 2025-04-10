@@ -1,0 +1,6 @@
+Tag Name,Address,Data Type,Client Access,Scan Rate,Scaling,Description
+TemperaturaVinho,"RANDOM(1000, 20.0, 30.0)",Float,Read/Write,100,None,Temperatura do vinho analisado (°C)
+BrixVinho,"RANDOM(1000, 8.0, 14.0)",Float,Read/Write,100,None,Brix do vinho analisado
+pHVinho,"RANDOM(1000, 3.0, 6.0)",Float,Read/Write,100,None,pH do vinho analisado
+EtanolVinho,"RANDOM(1000, 7.0, 15.0)",Float,Read/Write,100,None,Teor de etanol no vinho (%)
+AmostraOK,"USER(3000, 0, 1)",Boolean,Read/Write,100,None,Resultado da amostra

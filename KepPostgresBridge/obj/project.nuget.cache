@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "HjGLH0/+Il4=",
+  "success": true,
+  "projectFilePath": "C:\\usina-gui\\KepPostgresBridge\\KepPostgresBridge.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GuilhermeXavier\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\GuilhermeXavier\\.nuget\\packages\\npgsql\\7.0.6\\npgsql.7.0.6.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "KepPostgresBridge depende de Npgsql (>= 7.0.5) mas Npgsql 7.0.5 não foi encontrado. Npgsql 7.0.6 foi resolvido.",
+      "libraryId": "Npgsql",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Npgsql' 7.0.6 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
+      "libraryId": "Npgsql",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

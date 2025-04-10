@@ -1,0 +1,6 @@
+Tag Name,Address,Data Type,Client Access,Scan Rate,Scaling,Description
+NivelBagaço,"RANDOM(1000, 0.0, 100.0)",Float,Read/Write,100,None,Nível de bagaço (%)
+Umidade,"RANDOM(1000, 40.0, 60.0)",Float,Read/Write,100,None,Umidade do bagaço (%)
+VibradorLigado,"USER(1500, 0, 1)",Boolean,Read/Write,100,None,Status do vibrador
+ExtratorRodando,"USER(2000, 0, 1)",Boolean,Read/Write,100,None,Extrator de bagaço ativo
+ValvulaDescarga,"USER(1000, 0, 1)",Boolean,Read/Write,100,None,Válvula de descarga acionada

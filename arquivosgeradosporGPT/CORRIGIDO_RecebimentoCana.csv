@@ -1,0 +1,6 @@
+Tag Name,Address,Data Type,Client Access,Scan Rate,Scaling,Description
+PesoCarga,"RANDOM(1000, 0.0, 8000.0)",Float,Read/Write,100,None,Peso da carga de cana (kg)
+Umidade,"RANDOM(1000, 50.0, 75.0)",Float,Read/Write,100,None,Umidade da cana (%)
+BrixInicial,"RANDOM(1000, 10.0, 16.0)",Float,Read/Write,100,None,Brix da amostra inicial
+MotorEsteira,"USER(1200, 0, 1)",Boolean,Read/Write,100,None,Motor da esteira ligado
+SensorCarga,"USER(1500, 0, 1)",Boolean,Read/Write,100,None,Sensor de presença da carga

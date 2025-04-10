@@ -1,0 +1,8 @@
+Tag Name,Address,Data Type,Client Access,Scan Rate,Scaling,Description
+Destilaria.NivelColuna,"RANDOM(1000, 0.0, 100.0)",Float,Read/Write,100,None,Nível da coluna de destilação (%)
+Destilaria.TempTopo,"RANDOM(1000, 70.0, 95.0)",Float,Read/Write,100,None,Temperatura no topo da coluna (°C)
+Destilaria.TempFundo,"RANDOM(1000, 90.0, 120.0)",Float,Read/Write,100,None,Temperatura no fundo da coluna (°C)
+Destilaria.PressaoColuna,"RANDOM(1000, 1.0, 1.8)",Float,Read/Write,100,None,Pressão da coluna (bar)
+Destilaria.VazaoDestilado,"RANDOM(1000, 100.0, 500.0)",Float,Read/Write,100,None,Vazão de destilado (L/h)
+Destilaria.RefluxoLigado,"USER(2000, 0, 1)",Boolean,Read/Write,100,None,Status do refluxo
+Destilaria.CaldeiraLigada,"USER(2500, 0, 1)",Boolean,Read/Write,100,None,Status da caldeira

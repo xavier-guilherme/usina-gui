@@ -1,0 +1,7 @@
+Tag Name,Address,Data Type,Client Access,Scan Rate,Scaling,Description
+PressaoVapor,"RANDOM(1000, 3.0, 6.0)",Float,Read/Write,100,None,Pressão do vapor (bar)
+TempVapor,"RANDOM(1000, 120.0, 180.0)",Float,Read/Write,100,None,Temperatura do vapor (°C)
+VazaoAguaFria,"RANDOM(1000, 0.0, 100.0)",Float,Read/Write,100,None,Vazão de água fria (L/min)
+PressaoAr,"RANDOM(1000, 5.0, 8.0)",Float,Read/Write,100,None,Pressão do ar comprimido (bar)
+StatusGerador,"USER(5000, 0, 1)",Boolean,Read/Write,100,None,Gerador de emergência ligado
+NivelReservatorio,"RANDOM(1000, 20.0, 100.0)",Float,Read/Write,100,None,Nível de reservatório (%)

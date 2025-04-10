@@ -1,0 +1,30 @@
+TagName,Address,Data Type,Client Access,Scan Rate,Scaling,Description
+Agitador_MV,"RAMP(1000, 0, 1, 1)",Boolean,Read/Write,100,None,Status do agitador
+AlarmeNivelAlto,"RAMP(12000, 0, 1, 1)",Boolean, Read/Write,100,None,Alarme de nível alto
+AlarmeTempAlta,"RAMP(12000, 0, 1, 1)",Boolean,Read/Write,100,None,Alarme de temperatura alta
+Brix_PV,"RANDOM(1000, 0.000000, 18.000000)",Float,Read/Write,100,None,Concentração de açúcar (°Brix)
+CO2_PV,"RANDOM(1000, 0.000000, 10.000000)",Float,Read/Write,100,None,Liberação de CO2 (kg/h)
+DosagemLevedura_MV,"RANDOM(2000, 0.000000, 10.000000)",Float,Read/Write,100,None,Controle da dosagem de levedura (%)
+DosagemNutriente_MV,"RANDOM(2000, 0.000000, 15.000000)",Float,Read/Write,100,None,Controle da dosagem de nutrientes (%)
+Etanol_PV,"RANDOM(1000, 0.000000, 18.000000)",Float,Read/Write,100,None,Concentração de etanol (%)
+Etanol_SP,"RANDOM(1000, 12.0, 12.0)",Float,Read/Write,100,None,Meta de etanol (%)
+Misturador_MV,"RAMP(4000, 0, 1, 1)",Boolean,Read/Write,100,None,Misturador de ingredientes
+Nivel_SP,"RANDOM(1000, 80.0, 80.0)",Float,Read/Write,100,None,Setpoint de nível da dorna (%)
+NivelDorna_PV,"RANDOM(1000, 0.000000, 100.000000)",Float,Read/Write,100,None,Nível da dorna (%)
+pH_PV,"RANDOM(1000, 3.000000, 6.500000)",Float,Read/Write,100,None,pH da fermentação
+Pressao_PV,"RANDOM(1000, 1.000000, 1.500000)",Float,Read/Write,100,None,Pressão interna (bar)
+Pressao_SP,"RANDOM(1000, 1.2, 1.2)",Float,Read/Write,100,None,Setpoint de pressão (bar)
+Resfriamento_MV,"RANDOM(1000, 0.000000, 100.000000)",Float,Read/Write,100,None,Controle de resfriamento (%)
+Status_Fermentacao,"RAMP(7000, 0, 1, 1)",Boolean,Read/Write,100,None,Status da fermentação
+TempEntradaMosto_PV,"RANDOM(1000, 25.000000, 32.000000)",Float,Read/Write,100,None,Temperatura do mosto na entrada
+Temperatura_PV,"RANDOM(1000, 30.000000, 35.000000)",Float,Read/Write,100,None,Temperatura da dorna (°C)
+Temperatura_SP,"RANDOM(1000, 32.0, 32.0)",Float,Read/Write,100,None,Setpoint de temperatura (°C)
+TempSaidaVinho_PV,"RANDOM(1000, 30.000000, 34.000000)",Float,Read/Write,100,None,Temperatura do vinho na saída
+Valvula_Entrada_MV,"RAMP(3000, 0, 1, 1)",Boolean,Read/Write,100,None,Estado da válvula de entrada
+Valvula_Excesso_MV,"RAMP(6000, 0, 1, 1)",Boolean,Read/Write,100,None,Válvula de excesso da dorna
+Valvula_Saida_MV,"RAMP(5000, 0, 1, 1)",Boolean,Read/Write,100,None,Estado da válvula de saída
+VazaoAgua_PV,"RANDOM(1000, 0.000000, 15.000000)",Float,Read/Write,100,None,Vazão de água (L/min)
+VazaoLevedura_PV,"RANDOM(1000, 0.000000, 5.000000)",Float,Read/Write,100,None,Vazão de levedura (L/min)
+VazaoMosto_PV,"RANDOM(1000, 0.000000, 50.000000)",Float,Read/Write,100,None,Vazão do mosto (L/min)
+VinhoPronto,"RAMP(15000, 0, 1, 1)",Boolean,Read/Write,100,None,Indica se o vinho está pronto
+Volume_PV,"RANDOM(1000, 500.000000, 800.000000)",Float,Read/Write,100,None,Volume da dorna (litros)
