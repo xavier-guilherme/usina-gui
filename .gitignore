@@ -2,6 +2,7 @@
 .vs/
 *.user
 *.suo
+.vscode/
 
 # Build
 bin/
@@ -23,8 +24,6 @@ arquivosgeradosporGPT/*.csv
 
 # Outros
 *.sqlite
-
-# Ignorar arquivos de build, certificados e executáveis
 *.exe
 *.dll
 *.pdb
@@ -32,9 +31,3 @@ arquivosgeradosporGPT/*.csv
 *.cache
 *.v2
 *.v3
-*.suo
-*.user
-*.vs/
-.vscode/
-bin/
-obj/
