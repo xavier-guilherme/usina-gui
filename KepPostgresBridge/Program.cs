@@ -7,12 +7,13 @@ namespace KepPostgresBridge
     {
         static void Main(string[] args)
         {
-            var conexao = "Host=localhost;Username=gui;Password=senha123;Database=usina_virtual";
+            var conexao = "Host=localhost;Port=5433;Username=gui;Password=senha123;Database=usina_virtual";
 
             using var conn = new NpgsqlConnection(conexao);
 
             try
             {
+                Console.WriteLine(conexao);
                 conn.Open();
                 Console.WriteLine("✅ Conectado ao banco de dados PostgreSQL com sucesso!");
 

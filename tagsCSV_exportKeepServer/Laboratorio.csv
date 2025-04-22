@@ -1,0 +1,6 @@
+Tag Name,Address,Data Type,Respect Data Type,Client Access,Scan Rate,Scaling,Raw Low,Raw High,Scaled Low,Scaled High,Scaled Data Type,Clamp Low,Clamp High,Eng Units,Description,Negate Value
+"AmostraOK","USER (3000,0,1)",Boolean,1,RO,100,,,,,,,,,,"Resultado da amostra",
+"BrixVinho","RANDOM (1000, 8.000000, 14.000000)",Float,1,RO,100,,,,,,,,,,"Brix do vinho analisado",
+"EtanolVinho","RANDOM (1000, 7.000000, 15.000000)",Float,1,RO,100,,,,,,,,,,"Teor de etanol no vinho (%)",
+"pHVinho","RANDOM (1000, 3.000000, 6.000000)",Float,1,RO,100,,,,,,,,,,"pH do vinho analisado",
+"TemperaturaVinho","RANDOM (1000, 20.000000, 30.000000)",Float,1,RO,100,,,,,,,,,,"Temperatura do vinho analisado (°C)",

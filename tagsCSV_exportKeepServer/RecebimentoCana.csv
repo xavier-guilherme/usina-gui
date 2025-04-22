@@ -1,0 +1,6 @@
+Tag Name,Address,Data Type,Respect Data Type,Client Access,Scan Rate,Scaling,Raw Low,Raw High,Scaled Low,Scaled High,Scaled Data Type,Clamp Low,Clamp High,Eng Units,Description,Negate Value
+"BrixInicial","RANDOM (1000, 10.000000, 16.000000)",Float,1,RO,100,,,,,,,,,,"Brix da amostra inicial",
+"MotorEsteira","USER (1200,0,1)",Boolean,1,RO,100,,,,,,,,,,"Motor da esteira ligado",
+"PesoCarga","RANDOM (1000, 0.000000, 8000.000000)",Float,1,RO,100,,,,,,,,,,"Peso da carga de cana (kg)",
+"SensorCarga","USER (1500,0,1)",Boolean,1,RO,100,,,,,,,,,,"Sensor de presença da carga",
+"Umidade","RANDOM (1000, 50.000000, 75.000000)",Float,1,RO,100,,,,,,,,,,"Umidade da cana (%)",

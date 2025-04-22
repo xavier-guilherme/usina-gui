@@ -16,3 +16,4 @@ C:\usina-gui\KepPostgresBridge\obj\Debug\net8.0\refint\KepPostgresBridge.dll
 C:\usina-gui\KepPostgresBridge\obj\Debug\net8.0\KepPostgresBridge.pdb
 C:\usina-gui\KepPostgresBridge\obj\Debug\net8.0\KepPostgresBridge.genruntimeconfig.cache
 C:\usina-gui\KepPostgresBridge\obj\Debug\net8.0\ref\KepPostgresBridge.dll
+C:\usina-gui\KepPostgresBridge\obj\Debug\net8.0\KepPostgresBridge.sourcelink.json

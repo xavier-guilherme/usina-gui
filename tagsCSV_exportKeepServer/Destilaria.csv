@@ -1,0 +1,8 @@
+Tag Name,Address,Data Type,Respect Data Type,Client Access,Scan Rate,Scaling,Raw Low,Raw High,Scaled Low,Scaled High,Scaled Data Type,Clamp Low,Clamp High,Eng Units,Description,Negate Value
+"CaldeiraLigada","USER (2500,0,1)",Boolean,1,RO,100,,,,,,,,,,"Status da caldeira",
+"NivelColuna","RANDOM (1000, 0.000000, 100.000000)",Float,1,RO,100,,,,,,,,,,"Nível da coluna de destilação (%)",
+"PressaoColuna","RANDOM (1000, 1.000000, 1.800000)",Float,1,RO,100,,,,,,,,,,"Pressão da coluna (bar)",
+"RefluxoLigado","USER (2000,0,1)",Boolean,1,RO,100,,,,,,,,,,"Status do refluxo",
+"TempFundo","RANDOM (1000, 90.000000, 120.000000)",Float,1,RO,100,,,,,,,,,,"Temperatura no fundo da coluna (°C)",
+"TempTopo","RANDOM (1000, 70.000000, 95.000000)",Float,1,RO,100,,,,,,,,,,"Temperatura no topo da coluna (°C)",
+"VazaoDestilado","RANDOM (1000, 100.000000, 500.000000)",Float,1,RO,100,,,,,,,,,,"Vazão de destilado (L/h)",

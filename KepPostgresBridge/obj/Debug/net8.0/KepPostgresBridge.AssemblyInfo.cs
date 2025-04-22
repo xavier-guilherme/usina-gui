@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KepPostgresBridge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6010b656329fd905d21e4c1f95cf5ff4822e6205")]
 [assembly: System.Reflection.AssemblyProductAttribute("KepPostgresBridge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KepPostgresBridge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,40 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build
+bin/
+obj/
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# Arquivos gerados (ex: CSV simulados)
+arquivosgeradosporGPT/*.csv
+
+# Outros
+*.sqlite
+
+# Ignorar arquivos de build, certificados e executáveis
+*.exe
+*.dll
+*.pdb
+*.bin
+*.cache
+*.v2
+*.v3
+*.suo
+*.user
+*.vs/
+.vscode/
+bin/
+obj/

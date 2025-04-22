@@ -1,0 +1,6 @@
+Tag Name,Address,Data Type,Respect Data Type,Client Access,Scan Rate,Scaling,Raw Low,Raw High,Scaled Low,Scaled High,Scaled Data Type,Clamp Low,Clamp High,Eng Units,Description,Negate Value
+"AlarmePressao","USER (2500,0,1)",Boolean,1,RO,100,,,,,,,,,,"Alarme de sobrepressão",
+"NivelAgua","RANDOM (1000, 20.000000, 80.000000)",Float,1,RO,100,,,,,,,,,,"Nível do tanque da caldeira (%)",
+"PressaoVapor","RANDOM (1000, 4.000000, 7.000000)",Float,1,RO,100,,,,,,,,,,"Pressão do vapor gerado (bar)",
+"QueimadorLigado","USER (2000,0,1)",Boolean,1,RO,100,,,,,,,,,,"Status do queimador",
+"TemperaturaAgua","RANDOM (1000, 60.000000, 90.000000)",Float,1,RO,100,,,,,,,,,,"Temperatura da água (°C)",

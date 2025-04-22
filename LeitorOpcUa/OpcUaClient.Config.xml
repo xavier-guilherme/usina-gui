@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationConfiguration xmlns="http://opcfoundation.org/UA/SDK/Configuration.xsd">
+	<ApplicationName>LeitorOpcUa</ApplicationName>
+	<ApplicationUri>urn:localhost:LeitorOpcUa</ApplicationUri>
+	<ProductUri>urn:localhost:LeitorOpcUa</ProductUri>
+	<ApplicationType>Client_1</ApplicationType>
+
+	<SecurityConfiguration>
+		<ApplicationCertificate>
+			<StoreType>X509Store</StoreType>
+			<StorePath>CurrentUser\My</StorePath>
+			<SubjectName>CN=LeitorOpcUa</SubjectName>
+		</ApplicationCertificate>
+		<TrustedPeerCertificates>
+			<StoreType>Directory</StoreType>
+			<StorePath>CertificateStores\UA Applications</StorePath>
+		</TrustedPeerCertificates>
+		<RejectedCertificateStore>
+			<StoreType>Directory</StoreType>
+			<StorePath>CertificateStores\RejectedCertificates</StorePath>
+		</RejectedCertificateStore>
+		<AutoAcceptUntrustedCertificates>true</AutoAcceptUntrustedCertificates>
+		<AddAppCertToTrustedStore>true</AddAppCertToTrustedStore>
+	</SecurityConfiguration>
+
+	<TransportConfigurations />
+	<TransportQuotas>
+		<OperationTimeout>15000</OperationTimeout>
+	</TransportQuotas>
+	<ClientConfiguration>
+		<DefaultSessionTimeout>60000</DefaultSessionTimeout>
+	</ClientConfiguration>
+
+	<TraceConfiguration>
+		<OutputFilePath>Logs\LeitorOpcUa.log</OutputFilePath>
+		<DeleteOnLoad>false</DeleteOnLoad>
+		<TraceMasks>15</TraceMasks>
+	</TraceConfiguration>
+</ApplicationConfiguration>
